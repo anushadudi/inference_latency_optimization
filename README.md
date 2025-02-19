@@ -2,7 +2,7 @@
 
 **Trying different methods for inference latency optimization & benchmark the performance**
 
-This following results provides a comparison of inference results using different approaches on **an A100 40GB GPU**. 
+This following results provides a comparison of inference results using different approaches on **an A100 40GB GPU** with Meta llama-3.1-8b-instruct model.
 The following configurations were tested:
 - HF Transformer: This configuration serves as the baseline for performance comparison.
 - KV Cache + Torch.Compile: This configuration applies KV cache and torch.compile optimizations to improve performance.
