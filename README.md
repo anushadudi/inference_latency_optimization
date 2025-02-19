@@ -1,4 +1,6 @@
-# Trying different methods for inference latency optimization & benchmark the performance 
+# Inference latency optimization
+
+** Trying different methods for inference latency optimization & benchmark the performance **
 
 This following results provides a comparison of inference results using different approaches on an A100 40GB GPU. 
 The following configurations were tested:
